@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Imaad Mahmood — CV</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#111;
+    --muted:#555;
+    --line:#dcdcdc;
+    --accent:#0072b8;
+    --bg:#f4f4f1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--ink);font-family:"DM Sans",system-ui,sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{padding:32px 16px}
+  .page{
+    width:210mm;min-height:297mm;
+    margin:0 auto;background:#fff;
+    padding:18mm 16mm;
+    box-shadow:0 8px 40px rgba(0,0,0,.08);
+    font-size:10.5pt;line-height:1.5;
+  }
+  .toolbar{
+    width:210mm;margin:0 auto 18px;
+    display:flex;justify-content:space-between;align-items:center;
+    font-family:"JetBrains Mono",monospace;font-size:12px;color:#555;
+  }
+  .toolbar a, .toolbar button{
+    font:inherit;background:#111;color:#fff;border:0;
+    padding:9px 18px;border-radius:6px;cursor:pointer;text-decoration:none;
+    display:inline-flex;align-items:center;gap:8px;
+  }
+  .toolbar a:hover, .toolbar button:hover{background:#0072b8}
+
+  h1{font-family:"Bebas Neue",sans-serif;font-size:38pt;letter-spacing:.02em;line-height:1;color:var(--ink)}
+  h1 .sec{color:var(--accent)}
+  .role{font-family:"JetBrains Mono",monospace;font-size:11pt;color:var(--muted);margin-top:6px;letter-spacing:.04em;text-transform:uppercase}
+
+  .contact{
+    display:flex;flex-wrap:wrap;gap:14px 22px;margin-top:14px;
+    font-family:"JetBrains Mono",monospace;font-size:9pt;color:var(--muted);
+  }
+  .contact a{color:var(--muted);text-decoration:none}
+  .contact a:hover{color:var(--accent)}
+  .contact .dot{color:var(--accent)}
+
+  .rule{height:1px;background:var(--line);margin:18px 0}
+
+  h2{
+    font-family:"Bebas Neue",sans-serif;font-size:15pt;letter-spacing:.08em;color:var(--accent);
+    margin-top:18px;margin-bottom:10px;
+    border-bottom:1px solid var(--line);padding-bottom:5px;
+  }
+
+  .summary{font-size:10.5pt;color:#222;line-height:1.6}
+
+  .item{margin-bottom:14px}
+  .item-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .item-title{font-weight:700;font-size:11pt;color:var(--ink)}
+  .item-sub{font-size:10pt;color:var(--muted);font-style:italic}
+  .item-date{font-family:"JetBrains Mono",monospace;font-size:9pt;color:var(--muted);white-space:nowrap}
+  .item ul{margin-top:6px;padding-left:18px}
+  .item li{margin-bottom:3px;font-size:10pt;color:#222}
+
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:14px 32px}
+
+  .skills-grid{display:grid;grid-template-columns:140px 1fr;gap:6px 16px;font-size:10pt}
+  .skills-grid dt{font-weight:600;color:var(--ink)}
+  .skills-grid dd{color:#333}
+
+  .cert-list{columns:2;column-gap:32px;font-size:9.5pt;color:#222}
+  .cert-list li{break-inside:avoid;margin-bottom:6px;padding-left:14px;position:relative;list-style:none}
+  .cert-list li::before{content:"▸";position:absolute;left:0;color:var(--accent)}
+  .cert-list a{color:var(--accent);text-decoration:none}
+
+  .stat-row{display:flex;flex-wrap:wrap;gap:18px;font-size:10pt}
+  .stat-row > div{padding:8px 14px;background:#f4f4f1;border-left:3px solid var(--accent);flex:1 1 auto;min-width:180px}
+  .stat-row b{display:block;font-family:"Bebas Neue",sans-serif;font-size:18pt;color:var(--accent);line-height:1}
+  .stat-row span{font-size:9pt;color:var(--muted);font-family:"JetBrains Mono",monospace}
+
+  @media print{
+    body{padding:0;background:#fff}
+    .toolbar{display:none}
+    .page{box-shadow:none;width:auto;min-height:auto;padding:14mm 14mm}
+  }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a href="Portfolio.html">← Back to Portfolio</a>
+  <button onclick="window.print()">Save as PDF / Print →</button>
+</div>
+
+<main class="page">
+  <header>
+    <h1>IMAAD <span class="sec">MAHMOOD</span></h1>
+    <div class="role">ML Engineer &amp; Data Scientist</div>
+    <div class="contact">
+      <span><span class="dot">✦</span> Bahawalpur, Punjab, Pakistan</span>
+      <a href="mailto:imaad18102004@gmail.com">imaad18102004@gmail.com</a>
+      <a href="tel:+923129682706">+92 312-9682706</a>
+      <a href="https://github.com/Imaad18">github.com/Imaad18</a>
+      <a href="https://www.linkedin.com/in/imaad-mahmood/">linkedin.com/in/imaad-mahmood</a>
+      <a href="https://www.kaggle.com/imaadmahmood">kaggle.com/imaadmahmood</a>
+    </div>
+  </header>
+
+  <div class="rule"></div>
+
+  <section>
+    <h2>Profile</h2>
+    <p class="summary">
+      ML Engineer and Data Scientist specializing in predictive modeling, time series forecasting,
+      and Generative AI integrations. Kaggle Notebooks Master ranked <strong>#96 globally</strong> (top 0.45%
+      of 200,000+ competitors), 2× Silver Medalist. Currently freelancing on Upwork with a 100%
+      Job Success Score while pursuing a BS in Artificial Intelligence at The Islamia University of Bahawalpur.
+    </p>
+  </section>
+
+  <section>
+    <h2>Highlights</h2>
+    <div class="stat-row">
+      <div><b>#96</b><span>Kaggle Notebooks Master</span></div>
+      <div><b>0.45%</b><span>Top global percentile · 200K+ users</span></div>
+      <div><b>2×</b><span>Silver medals · Kaggle</span></div>
+      <div><b>100%</b><span>Upwork Job Success Score</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div class="item">
+      <div class="item-head">
+        <div>
+          <div class="item-title">Freelance ML Engineer &amp; Data Scientist</div>
+          <div class="item-sub">Upwork · Remote</div>
+        </div>
+        <div class="item-date">Jan 2026 — Present</div>
+      </div>
+      <ul>
+        <li>Maintained 100% Job Success Score (Rising Talent badge).</li>
+        <li>Delivered end-to-end ML solutions for international clients.</li>
+        <li>Specialized in predictive modeling, data pipelines, and Generative AI integrations.</li>
+        <li>Built and deployed production applications using Python, SQL, and cloud APIs.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <div>
+          <div class="item-title">Machine Learning Researcher &amp; Competitor</div>
+          <div class="item-sub">Kaggle</div>
+        </div>
+        <div class="item-date">May 2025 — Present</div>
+      </div>
+      <ul>
+        <li>Ranked top 0.45% globally out of 200,000+ competitors; Notebooks Expert global rank #137.</li>
+        <li>Silver Medal — 33rd / 3,802 teams · CSIRO Image2Biomass.</li>
+        <li>Silver Medal — 59th / 1,711 teams · Mitsui Commodity Prediction.</li>
+        <li>Built ML pipelines using XGBoost, LightGBM, and deep-learning architectures.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Featured Projects</h2>
+
+    <div class="item">
+      <div class="item-head">
+        <div class="item-title">FluxCode — AI Coding Companion</div>
+        <div class="item-date">github.com/Imaad18/FluxCode</div>
+      </div>
+      <p style="font-size:10pt;color:#222;margin-top:4px">
+        AI-powered coding companion built on Google Gemini (2.0 Flash &amp; 1.5 Pro). Code generation,
+        explanation and debug modes with multi-turn chat history and persistent JSON-export sessions.
+        <em>Stack: Python · Streamlit · Gemini · LLM.</em>
+      </p>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <div class="item-title">FinCast Pro — Time Series Forecasting Platform</div>
+        <div class="item-date">github.com/Imaad18/fincast-pro</div>
+      </div>
+      <p style="font-size:10pt;color:#222;margin-top:4px">
+        Institutional-grade forecasting platform running Prophet, ARIMA/SARIMA, XGBoost and Monte Carlo
+        in parallel, blended into an ensemble. Walk-forward backtesting, regime detection, VaR/CVaR risk analysis,
+        Yahoo Finance integration. <em>Stack: Python · Prophet · XGBoost · Streamlit · Monte Carlo.</em>
+      </p>
+    </div>
+
+    <div class="item">
+      <div class="item-head">
+        <div class="item-title">Enterprise RAG Pipeline</div>
+        <div class="item-date">github.com/Imaad18/enterprise-rag-eval</div>
+      </div>
+      <p style="font-size:10pt;color:#222;margin-top:4px">
+        End-to-end locally hosted RAG system with automated evaluation suite. Llama 3.2 via Ollama,
+        ChromaDB vector store, LangChain LCEL orchestration. 100% private, offline-first; Pytest-based
+        CI/CD evaluation to detect hallucinations. <em>Stack: Python · LLMs · RAG · LangChain · ChromaDB · Llama 3.2.</em>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <dl class="skills-grid">
+      <dt>Core</dt>
+      <dd>Artificial Intelligence · Data Engineering · Data Analytics · Predictive Modeling · Time Series</dd>
+      <dt>Languages &amp; Frameworks</dt>
+      <dd>Python · SQL · LLMs · XGBoost · LightGBM · Prophet · LangChain · Streamlit · Azure ML</dd>
+      <dt>Platforms &amp; Tools</dt>
+      <dd>Kaggle · Upwork · GitHub · Credly · Coursera · Ollama · ChromaDB</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="item">
+      <div class="item-head">
+        <div>
+          <div class="item-title">The Islamia University of Bahawalpur</div>
+          <div class="item-sub">Bachelor of Artificial Intelligence — Computer Science</div>
+        </div>
+        <div class="item-date">Feb 2024 — Feb 2028</div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-head">
+        <div>
+          <div class="item-title">Concordia Colleges</div>
+          <div class="item-sub">FSc (Pre-Medical) — Biology / Biological Sciences</div>
+        </div>
+        <div class="item-date">Aug 2021 — Jul 2023</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul class="cert-list">
+      <li><a href="https://www.coursera.org/account/accomplishments/specialization/37KJAIM9T2XO">Meta Data Analyst Professional Certificate</a> · Meta · Coursera</li>
+      <li><a href="https://www.coursera.org/account/accomplishments/specialization/VEB6EV4HW1MR">Google Data Analytics Professional Certificate (v.3)</a> · Google · Coursera</li>
+      <li><a href="https://www.coursera.org/account/accomplishments/specialization/PPC42E0VME6A">Data Science Orientation</a> · IBM · Coursera</li>
+      <li>Machine Learning with Python (V2) · IBM · Coursera</li>
+      <li><a href="https://www.coursera.org/account/accomplishments/verify/VJQE0GZA22XS">Microsoft Azure Machine Learning for Data Science</a> · Microsoft · Coursera</li>
+      <li><a href="https://www.coursera.org/account/accomplishments/specialization/7WKJN6ED4OI7">Modern Statistics for Data-Driven Decision-Making</a> · Coursera</li>
+      <li><a href="https://www.freecodecamp.org/certification/fcc661618f7-dd28-4fc1-b1af-8346895c2a7f/data-analysis-with-python-v7">Data Analysis with Python</a> · freeCodeCamp</li>
+      <li><a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/fa833a0f03415d76bfdccecadac216ee0bc0da44">Working with OpenAI API</a> · DataCamp</li>
+      <li><a href="https://verify.skilljar.com/c/3s4o4inpa7xj">AI Fluency: Framework &amp; Foundations</a> · Anthropic · Skilljar</li>
+    </ul>
+  </section>
+
+</main>
+
+<script>
+  // If opened with ?print=1, auto-trigger print dialog (so the Download button on portfolio
+  // can take user straight to "Save as PDF").
+  if (new URLSearchParams(location.search).get('print') === '1') {
+    window.addEventListener('load', () => setTimeout(() => window.print(), 500));
+  }
+</script>
+</body>
+</html>
